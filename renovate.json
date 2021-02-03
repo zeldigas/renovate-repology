@@ -3,7 +3,7 @@
     "regexManagers": [
         {
             "fileMatch": [".Dockerfile$"],
-            "matchStrings": ["# renovate packageName=(?<depName>.*?)\n.*JDK_VERSION=(?<current_value>.*?)\n"],
+            "matchStrings": ["# renovate packageName=(?<depName>.*?)\n.*JDK_VERSION=(?<currentValue>.*?)\n"],
             "datasourceTemplate": "repology",
             "versioningTemplate": "loose"
         }
